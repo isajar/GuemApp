@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+}
+.mat-row:nth-child(even) {
+  background-color: lightblue;
+}
+
+.mat-row:nth-child(odd) {
+  background-color: lightpink;
+}
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
