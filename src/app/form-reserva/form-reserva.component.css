@@ -3,3 +3,10 @@
   border: 1px solid lightgray;
   margin: 40px;
 }
+mat-form-field {
+  width: 100%;
+}
+
+.btn-form {
+  width: 60%;
+}

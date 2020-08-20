@@ -23,7 +23,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
-
+import { MAT_DATE_LOCALE } from '@angular/material/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +49,10 @@ import { MatListModule } from '@angular/material/list';
     MatToolbarModule,
     MatListModule,
   ],
-  providers: [MatDatepickerModule],
+  providers: [
+    MatDatepickerModule,
+    { provide: MAT_DATE_LOCALE, useValue: 'es-AR' },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
