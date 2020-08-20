@@ -5,3 +5,7 @@ mat-sidenav-container {
 mat-sidenav {
   width: 200px;
 }
+
+mat-nav-list {
+  margin-top: 10px;
+}
