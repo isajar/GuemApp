@@ -23,6 +23,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 import { FormNuevoprodComponent } from './form-nuevoprod/form-nuevoprod.component';
 import { StockComponent } from './stock/stock.component';
 @NgModule({
@@ -50,6 +52,7 @@ import { StockComponent } from './stock/stock.component';
     MatIconModule,
     MatToolbarModule,
     MatListModule,
+    MatGridListModule,
   ],
   providers: [
     MatDatepickerModule,
