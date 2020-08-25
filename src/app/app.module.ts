@@ -24,6 +24,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatSelectModule } from '@angular/material/select';
 
 import { FormNuevoprodComponent } from './form-nuevoprod/form-nuevoprod.component';
 import { StockComponent } from './stock/stock.component';
@@ -53,6 +54,7 @@ import { StockComponent } from './stock/stock.component';
     MatToolbarModule,
     MatListModule,
     MatGridListModule,
+    MatSelectModule,
   ],
   providers: [
     MatDatepickerModule,

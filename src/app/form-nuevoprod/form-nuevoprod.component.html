@@ -1,1 +1,35 @@
-<p>form-nuevoprod works!</p>
+<div class="container" fxLayout="row" fxLayoutAlign="center">
+  <div fxLayout="column">
+    <h2>Nuevo producto</h2>
+    <form>
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="fill">
+        <mat-label>Categoria</mat-label>
+        <mat-select multiple>
+          <mat-option>Opt 1</mat-option>
+          <mat-option>Opt 2</mat-option>
+          <mat-option>Opt 3</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="fill">
+        <mat-label>Cantidad</mat-label>
+        <input matInput />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="fill">
+        <mat-label>Observaciones</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field>
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <button mat-flat-button color="primary" class="btn-form">
+          Reservar
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

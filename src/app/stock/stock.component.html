@@ -2,18 +2,46 @@
   <div fxLayout="column" fxFill>
     <mat-card>
       <div fxLayout="row">
-        <div fxFlex="20">
+        <div fxFlex="20" fxFlexAlign="center">
           <img src="https://picsum.photos/50" />
         </div>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam
-          maiores eaque quia praesentium deleniti ipsum quas modi aliquid
-          aperiam in illo ad tempora quod, magni vel a voluptate culpa.
-        </p>
+        <div fxLayout="column">
+          <mat-card-title>Sacaleche</mat-card-title>
+          <mat-card-subtitle>3 disponibles</mat-card-subtitle>
+        </div>
       </div>
     </mat-card>
-    <mat-card>hola</mat-card>
-    <mat-card>hola</mat-card>
+    <mat-card>
+      <div fxLayout="row">
+        <div fxFlex="20" fxFlexAlign="center">
+          <img src="https://picsum.photos/50" />
+        </div>
+        <div fxLayout="column">
+          <mat-card-title>Manteles</mat-card-title>
+          <mat-card-subtitle>2 disponibles</mat-card-subtitle>
+        </div>
+      </div>
+    </mat-card>
+    <mat-card
+      ><div fxLayout="row">
+        <div fxFlex="20" fxFlexAlign="center">
+          <img src="https://picsum.photos/50" />
+        </div>
+        <div fxLayout="column">
+          <mat-card-title>Floreros</mat-card-title>
+          <mat-card-subtitle>10 disponibles</mat-card-subtitle>
+        </div>
+      </div>
+    </mat-card>
   </div>
+</div>
+<div class="custom-button">
+  <a
+    mat-fab
+    color="primary"
+    aria-label="btn nuevo producto"
+    routerLink="/form-nuevoprod"
+  >
+    <mat-icon>add</mat-icon>
+  </a>
 </div>
