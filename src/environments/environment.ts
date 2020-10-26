@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyANJYMctzR8t6kP32csrKLM0m9cgaDM8jA',
+    authDomain: 'guemapp.firebaseapp.com',
+    databaseURL: 'https://guemapp.firebaseio.com',
+    projectId: 'guemapp',
+    storageBucket: 'guemapp.appspot.com',
+    messagingSenderId: '968307547568'
+  }
 };
 
 /*

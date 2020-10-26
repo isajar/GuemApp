@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "guemapp": {
+      "hosting": {
+        "GuemApp": [
+          "guemapp"
+        ]
+      }
+    }
+  }
+}
